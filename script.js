@@ -28,7 +28,7 @@ function displayROSES() {
     };
 }
 
-
+function displayROSES() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
@@ -42,7 +42,8 @@ function displayROSES() {
         imageContainer.appendChild(ROSESimage);
     };
 
-
+}
+function displayROSES() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
@@ -55,9 +56,9 @@ function displayROSES() {
     ROSESimage.onload = function() {
         imageContainer.appendChild(ROSESimage);
     };
+}
 
-
-
+function displayROSES() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
@@ -70,9 +71,9 @@ function displayROSES() {
     ROSESimage.onload = function() {
         imageContainer.appendChild(ROSESimage);
     };
+}
 
-
-
+function displayROSES() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
@@ -85,7 +86,7 @@ function displayROSES() {
     ROSESimage.onload = function() {
         imageContainer.appendChild(ROSESimage);
     };
-
+}
 
 function displayROSES() {
     // Get the container where the image will be displayed
@@ -102,7 +103,7 @@ function displayROSES() {
     };
 
 
-
+function displayROSES() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat
@@ -115,7 +116,7 @@ function displayROSES() {
     ROSESimage.onload = function() {
         imageContainer.appendChild(ROSESimage);
     };
-
+}
 // Function to display the cat-heart.gif
 function displayROSES() {
     // Clear existing content in the image container
