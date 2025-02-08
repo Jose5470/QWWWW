@@ -30,7 +30,7 @@ function displayROSES() {
 
 function displayROSES() {
     // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
+    var imageContainer = document.getElementById('image-container2');
     // Create a new Image element for the cat
     var ROSESimage = new Image();
     // Set the source (file path) for the cat image
@@ -45,7 +45,7 @@ function displayROSES() {
 
 function displayROSES() {
     // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
+    var imageContainer = document.getElementById('image-container3');
     // Create a new Image element for the cat
     var ROSESimage = new Image();
     // Set the source (file path) for the cat image
@@ -60,7 +60,7 @@ function displayROSES() {
 
 function displayROSES() {
     // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
+    var imageContainer = document.getElementById('image-container4');
     // Create a new Image element for the cat
     var ROSESimage = new Image();
     // Set the source (file path) for the cat image
@@ -75,7 +75,7 @@ function displayROSES() {
 
 function displayROSES() {
     // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
+    var imageContainer = document.getElementById('image-container5');
     // Create a new Image element for the cat
     var ROSESimage = new Image();
     // Set the source (file path) for the cat image
@@ -90,7 +90,7 @@ function displayROSES() {
 
 function displayROSES() {
     // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
+    var imageContainer = document.getElementById('image-container6');
     // Create a new Image element for the cat
     var ROSESimage = new Image();
     // Set the source (file path) for the cat image
@@ -105,7 +105,7 @@ function displayROSES() {
 }
 function displayROSES() {
     // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
+    var imageContainer = document.getElementById('image-container7');
     // Create a new Image element for the cat
     var ROSESimage = new Image();
     // Set the source (file path) for the cat image
@@ -123,7 +123,7 @@ function displayROSES() {
     // Clear existing content in the image container
     document.getElementById('image-container').innerHTML = '';
     // Get the container where the image will be displayed
-    var imageContainer = document.getElementById('image-container');
+    var imageContainer = document.getElementById('image-container8');
     // Create a new Image element for the cat-heart
     var ROSESImage = new Image();
     // Set the source (file path) for the cat-heart image
