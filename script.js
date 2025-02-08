@@ -1,6 +1,3 @@
-// script.js
-
-// Function to handle button click events
 function selectOption(option) {
     // Check which option was clicked
     if (option === 'ClICK') {
@@ -19,7 +16,7 @@ function displayROSES() {
     // Create a new Image element for the cat
     var ROSESimage = new Image();
     // Set the source (file path) for the cat image
-    ROSESimage.src = 'ROSE2.gif'; // Assuming the cat image is named "cat.gif"
+    ROSESimage.src = 'ROSE1.gif'; // Assuming the cat image is named "cat.gif"
     // Set alternative text for the image (for accessibility)
     ROSESimage.alt = 'ROSE';
     // When the cat image is fully loaded, add it to the image container
@@ -41,8 +38,8 @@ function displayROSES() {
     ROSESimage.onload = function() {
         imageContainer.appendChild(ROSESimage);
     };
-
 }
+
 function displayROSES() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
@@ -102,7 +99,7 @@ function displayROSES() {
         imageContainer.appendChild(ROSESimage);
     };
 
-
+}
 function displayROSES() {
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
@@ -117,6 +114,7 @@ function displayROSES() {
         imageContainer.appendChild(ROSESimage);
     };
 }
+
 // Function to display the cat-heart.gif
 function displayROSES() {
     // Clear existing content in the image container
@@ -128,9 +126,9 @@ function displayROSES() {
     // Set the source (file path) for the cat-heart image
     ROSESImage.src = 'ROSE1.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
-    ROSESImage.alt = 'ROSE';
+    ROSESImageImage.alt = 'Cat Heart';
     // When the cat-heart image is fully loaded, add it to the image container
-    ROSESImage.onload = function() {
+    ROSESImageImage.onload = function() {
         imageContainer.appendChild(ROSESImage);
         // Hide the options container
         document.getElementById('options').style.display = 'none';
