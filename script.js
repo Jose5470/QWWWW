@@ -126,7 +126,7 @@ function displayROSES() {
     // Create a new Image element for the cat-heart
     var ROSESImage = new Image();
     // Set the source (file path) for the cat-heart image
-    ROSESImage.src = 'ROSE2.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
+    ROSESImage.src = 'ROSE1.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
     ROSESImage.alt = 'ROSE';
     // When the cat-heart image is fully loaded, add it to the image container
