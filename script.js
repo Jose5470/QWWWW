@@ -8,7 +8,6 @@ function selectOption(option) {
         });
     }
 }
-
 // Function to display the cat.gif initially
 function displayROSES() {
     // Get the container where the image will be displayed
@@ -117,8 +116,6 @@ function displayROSES() {
 
 // Function to display the cat-heart.gif
 function displayROSES() {
-    // Clear existing content in the image container
-    document.getElementById('image-container').innerHTML = '';
     // Get the container where the image will be displayed
     var imageContainer = document.getElementById('image-container');
     // Create a new Image element for the cat-heart
@@ -126,7 +123,7 @@ function displayROSES() {
     // Set the source (file path) for the cat-heart image
     ROSESImage.src = 'ROSE1.gif'; // Assuming the cat-heart image is named "cat-heart.gif"
     // Set alternative text for the image (for accessibility)
-    ROSESImageImage.alt = 'Cat Heart';
+    ROSESImageImage.alt = 'ROSE';
     // When the cat-heart image is fully loaded, add it to the image container
     ROSESImageImage.onload = function() {
         imageContainer.appendChild(ROSESImage);
